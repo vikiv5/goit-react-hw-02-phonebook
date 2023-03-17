@@ -10,14 +10,21 @@ export const List = styled.ul`
 `;
 
 export const ListItem = styled.li`
-  display: flex;
-  gap: 40px;
-  align-items: center;
+
+  padding : 5 px 10px ; 
+  border: none ;
+  cursor:pointer;
+  color: black;
+  background-color: violet;
+
+
 `;
 
 export const Button = styled.button`
   padding: 5px 20px;
   color: #333340;
-  border: 1px solid #333340;
-  border-radius: 5px;
+  border: 1px solid pink;
+  border-radius: 3px;
+  cursor :pointer;
+  display :flex;
 `;

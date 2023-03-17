@@ -11,7 +11,7 @@ export const Label = styled.label`
 export const Input = styled(Field)`
   margin: 0;
   outline: none;
-  width: 200px;
+  width: 300px;
   padding-top: 5px;
   padding-bottom: 5px;
   border: 1px solid #333340;
